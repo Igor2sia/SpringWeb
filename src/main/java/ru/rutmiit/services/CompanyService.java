@@ -7,4 +7,6 @@ import java.util.List;
 public interface CompanyService {
 
     List<CompanySummary> allCompanies();
+
+    CompanySummary companyDetails(String companyName);
 }

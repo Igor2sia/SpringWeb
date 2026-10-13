@@ -1,5 +1,10 @@
 package ru.rutmiit.model;
 
-public record CompanySummary(String name, String town) {
+import java.math.BigDecimal;
+
+public record CompanySummary(String name,
+                             String town,
+                             String description,
+                             BigDecimal budget) {
 
 }
